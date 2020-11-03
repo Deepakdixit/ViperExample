@@ -1,0 +1,37 @@
+PODS:
+  - DropDown (2.3.12)
+  - Nimble (8.0.9)
+  - SwiftSpinner (1.6.2)
+  - XMLParsing (0.0.3)
+
+DEPENDENCIES:
+  - DropDown
+  - Nimble (~> 8.0.2)
+  - SwiftSpinner
+  - XMLParsing (from `https://github.com/ShawnMoore/XMLParsing.git`)
+
+SPEC REPOS:
+  https://github.com/CocoaPods/Specs.git:
+    - DropDown
+    - SwiftSpinner
+  trunk:
+    - Nimble
+
+EXTERNAL SOURCES:
+  XMLParsing:
+    :git: https://github.com/ShawnMoore/XMLParsing.git
+
+CHECKOUT OPTIONS:
+  XMLParsing:
+    :commit: 594272e4df40798c53ae1735ee65f3f387291670
+    :git: https://github.com/ShawnMoore/XMLParsing.git
+
+SPEC CHECKSUMS:
+  DropDown: 0bcc278799ec11a3d34ce1aac9367fbbaf5423d9
+  Nimble: 98b888285a615fd34f20e61753cf58ea1402bde4
+  SwiftSpinner: 3a4c6dea425e5a31b908a8b1dd5dcd1ad4d96340
+  XMLParsing: 085edb6fa22c71d6b53a79299f990a91e7414d19
+
+PODFILE CHECKSUM: 6aa562f2a727459bfbbfba7a58b99abf1c00c7cf
+
+COCOAPODS: 1.9.2
